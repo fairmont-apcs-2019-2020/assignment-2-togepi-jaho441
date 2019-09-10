@@ -1,14 +1,11 @@
 
 public class TogepiThing extends PokeThing {
-
 	public TogepiThing()
 	{
-		super("togepi");
+	super ("togepi", "", 0);
 	}
-	
-	public void step()
-	{
-		move(null);
+
+	public void step() {
+		move();
 	}
-	
 }
